@@ -82,6 +82,8 @@ def form_page(args = ['']):
     if(st.button("Get your loan here!")):
         url = "https://www.independer.nl/geld-lenen/intro.aspx?&refer=adwordslenen-des-TS49&gclid=CjwKCAjw8JKbBhBYEiwAs3sxN80Fh_5Oew35x2EkwMX9_ar59oJZxWsLnXnH_S0I-AapXLFd9u3KuhoCQEIQAvD_BwE&gclsrc=aw.ds"
         webbrowser.open_new_tab(url)
+        st.write("If the link button does not work, use the following link instead:")
+        st.write(url)
 
 
 
